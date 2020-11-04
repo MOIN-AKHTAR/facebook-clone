@@ -1,3 +1,11 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: #F0F2F5;
+}
+/* Header */
 .header{
   display: flex;
   flex-wrap: wrap;
@@ -63,4 +71,27 @@
 
 .header__info>h4{
   margin: 0px 10px;
+}
+
+/* Side bar */
+.side__bar{
+  padding: 10px;
+  max-width: 360px;
+}
+.side__bar h4{
+  margin:10px 0px;
+  color: #5F6061;
+}
+.sidebar__row{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.sidebar__row:hover{
+  background-color: #E4E6E9;
+  cursor: pointer;
+}
+.sidebar__row>h4{
+  margin-left: 10px;
+  color: #5F6061;
 }
