@@ -2,6 +2,8 @@ import React from 'react';
 import Header from './Header';
 import "./App.css"
 import { Sidebar } from './Sidebar';
+import { MainSection } from './MainSection';
+
 
  const App = () => {
   return (
@@ -9,8 +11,8 @@ import { Sidebar } from './Sidebar';
       <Header/>
       <div className="app_body">
        <Sidebar/>
-        <div>MIDDLE SECTION</div>
-        <div>EMBEDED SECTION</div>
+        <MainSection/>
+        <div style={{width:"360px"}}>LEFT SIDE BAR</div>
       </div>
     </React.Fragment>
   )
