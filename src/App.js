@@ -3,6 +3,7 @@ import Header from './Header';
 import "./App.css"
 import { Sidebar } from './Sidebar';
 import { MainSection } from './MainSection';
+import { Favourites } from './Favourites';
 
 
  const App = () => {
@@ -12,7 +13,7 @@ import { MainSection } from './MainSection';
       <div className="app_body">
        <Sidebar/>
         <MainSection/>
-        <div style={{width:"360px"}}>LEFT SIDE BAR</div>
+        <Favourites/>
       </div>
     </React.Fragment>
   )
